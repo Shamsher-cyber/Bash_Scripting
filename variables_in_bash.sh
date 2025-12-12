@@ -23,6 +23,10 @@ echo "Today we see Variables in bash scripting "
 # Assignment: Use the syntax ---> NAME=value <--- with no spaces around the equal sign
 # Naming Rules: Variable names can include letters, numbers, and underscores (_), but must start with a letter or an underscore. Names are case-sensitive.
 
+
+# -----> this is the user defined variables !!! <------
+#
+
 name='kali'
 
 num=1000
@@ -42,6 +46,7 @@ st1="""this is also a string value"""
 
 # how to call or print variables in bash 
 # we use the $ sign to print a variable 
+
 echo ""
 echo "$name linux here"
 echo ""
@@ -63,5 +68,43 @@ echo ""
 ## manuall data type assign krne key jarurat bhi hoti hai
 ## bash mein untyped variables hote hain manually define 
 ## krne ki jarurat nhi hoti 
+
+
+###  ------> System Define Variables  -----> 
+
+# --->> System Defined variables ko Capital letters mein he 
+#  use kiya jaata hai ..
+#
+echo ""
+echo "--->> Here are some System Defined Variable"
+echo ""
+
+echo " For printing Home directory "
+echo $HOME 
+echo ""
+
+echo "current working Directory  "
+echo $PWD 
+echo""
+
+echo "bash shell name "
+echo $BASH
+echo ""
+
+echo "bash shell version "
+echo $BASH_VERSION
+echo""
+
+echo "Name of the login user "
+echo $LOGNAME
+echo ""
+
+echo "Return the shell type "
+echo $SHELL 
+echo ""
+
+
+
+
 
 
